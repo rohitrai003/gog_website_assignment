@@ -1,0 +1,59 @@
+.home{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: var(--abeezee-font);
+    background: url("https://wallpapers.com/images/hd/spotlight-background-nijt1skebc1jz1wz.jpg");
+    background-size: cover;
+
+}
+.home .welcome span{
+    font-size: 60px;
+    color: var(--baby-blue);
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+.home div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-box{
+    height: 60%;
+    width: 35%;
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    box-shadow: 2px 2px 0.3px black;
+    background-image: url("https://i.pinimg.com/736x/34/f4/8c/34f48c7149d85a0f50d459a2d51aba10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    
+}
+
+
+.home .welcome p{
+    font-size: 25px;
+}
+
+.welcome .text{
+    display: flex;
+    flex-direction: row;
+}
+
+.home .welcome h1{
+    font-size: 60px;
+    color: blue;
+    text-decoration: underline;
+    margin: 0px 10px;
+}
+

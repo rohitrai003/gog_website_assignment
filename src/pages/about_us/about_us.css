@@ -1,0 +1,57 @@
+.aboutus{
+    display: flex;
+    flex: 1;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-direction: row;
+    font-family: var(--abeezee-font);
+    font-size: 25px;
+}
+
+.about-box{
+    height: 60%;
+    width: 30%;
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    box-shadow: 2px 2px 0.3px black;
+    background-image: url("https://img.freepik.com/free-vector/brainstorming-concept-landing-page_52683-26979.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutus .about-text span{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 10px;
+
+}
+
+.about-text p{
+    text-decoration: underline;
+    color: var(--baby-blue);
+    margin: 0px 5px;
+    transition: 0.2s ease-in-out all;
+    cursor: pointer;
+}
+.about-text p:hover{
+    color: blue;
+    transition: 0.2s ease-in-out all;
+}
+
+.about-text .p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
